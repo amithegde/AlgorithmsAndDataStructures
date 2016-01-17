@@ -2,6 +2,12 @@ Interview questions solved, in C#
 
 I Use [LinqPad](https://www.linqpad.net/) to get things going quickly.
 
+
+Strings & Arrays
+----------------
+
+> - [If an element in an MxN matrix has 0, replace entire row and column by 0](https://github.com/amithegde/AlgorithmsAndDataStructures/blob/master/src/If_element_is_zero_replace_entire_row_and_column.cs)
+
 Searching & Sorting
 --------------------
 
