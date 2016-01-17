@@ -1,5 +1,3 @@
-<Query Kind="Program" />
-
 void Main()
 {
 	//create tree
