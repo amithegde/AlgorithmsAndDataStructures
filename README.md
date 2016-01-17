@@ -1,4 +1,4 @@
-Interview questions solved, All code is in C#
+Interview questions solved, code is in C#
 
 I Use [LinqPad][1] to get things going quickly.
 
