@@ -9,20 +9,7 @@ void Main()
 	//expected output
 	//124, 125, 136, 1377
 	
-	//1
-	var root = new Node(1);
-	//2
-	root.Left = new Node(2);
-	root.Right = new Node(3);
-	//3
-	root.Left.Left = new Node(4);
-	root.Left.Right = new Node(5);
-	root.Right.Left = new Node(6);
-	root.Right.Right = new Node(7);
-	//4
-	root.Right.Right.Right = new Node(7);
-
-	LeafToRootPathRecursive(root, new int[100], 0);
+	LeafToRootPathRecursive(GetTree(), new int[10], 0);
 }
 
 public class Node
@@ -37,14 +24,31 @@ public class Node
 	public Node Right { get; set; }
 }
 
+private Node GetTree()
+{
+	//1
+	var root = new Node(1);
+	//2
+	root.Left = new Node(2);
+	root.Right = new Node(3);
+	//3
+	root.Left.Left = new Node(4);
+	root.Left.Right = new Node(5);
+	root.Right.Left = new Node(6);
+	root.Right.Right = new Node(7);
+	//4
+	root.Right.Right.Right = new Node(7);
+	
+	return root;
+}
 ///<summary>
 /// Perform Preorder traversal of the tree while storing the node value for each level
 /// print the path on reaching leaf node
 ///</summary>
 private void LeafToRootPathRecursive(Node root, int[] arr, int level)
 {
-	if(root == null) return;
-	
+	if (root == null) return;
+
 	arr[level] = root.Data;
 
 	if (root.Left == null && root.Right == null)
@@ -64,6 +68,6 @@ private void PrintPath(int[] arr, int level)
 	{
 		Console.WriteLine(arr[i]);
 	};
-	
+
 	Console.WriteLine();
 }
