@@ -13,6 +13,11 @@ Searching & Sorting
 
 > - [Binary Search (Iterative & Recursive)](https://github.com/amithegde/AlgorithmsAndDataStructures/blob/master/src/Binary_Search_Iterative_And_Recursive.cs)
 
+Linked Lists
+------------
+
+> - [Return Kth element from last](https://github.com/amithegde/AlgorithmsAndDataStructures/blob/master/src/LinkedList_Kth_last_item.cs)
+
 Binary Tree
 ------------
 
