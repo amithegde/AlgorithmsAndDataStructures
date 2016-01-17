@@ -5,8 +5,8 @@ I Use [LinqPad][1] to get things going quickly.
 Binary Tree
 ------------
 
+> - [InOrder traversal (Recursive & Iterative)](https://github.com/amithegde/AlgorithmsAndDataStructures/blob/master/BinaryTree_InOrder_Traversal.cs)
 > - [Print root to leaf paths][2]
-
 
 Binary Search Tree
 ------------------
