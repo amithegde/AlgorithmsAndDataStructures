@@ -5,10 +5,17 @@ void Main()
 	//   2   3
 	//  4 5 6 7
 	//         7
-	
+
 	//expected output
 	//124, 125, 136, 1377
-	
+
+	/*
+	 * Algorithm: 
+	 * 1: Add root data to array at index `level`
+	 * 2: If root is a leaf, print the path and return
+	 * 3: Recursively traverse the left subtree & right subtree
+	*/
+
 	LeafToRootPathRecursive(GetTree(), new int[10], 0);
 }
 
@@ -48,6 +55,7 @@ private Node GetTree()
 ///</summary>
 private void LeafToRootPathRecursive(Node root, int[] arr, int level)
 {
+	//base case
 	if (root == null) return;
 
 	arr[level] = root.Data;
