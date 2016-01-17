@@ -39,7 +39,7 @@ public class Node
 
 ///<summary>
 /// Perform Preorder traversal of the tree while storing the node value for each level
-/// print the pat once leaf node is reached
+/// print the path on reaching leaf node
 ///</summary>
 private void LeafToRootPathRecursive(Node root, int[] arr, int level)
 {
