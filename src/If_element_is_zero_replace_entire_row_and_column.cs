@@ -12,7 +12,7 @@ void Main()
 
 	arr.Dump();
 
-	ReplaceRowAndColumns(arr, findNum: 0, replaceWithNum: 0);
+	ReplaceRowsAndColumns(arr, findNum: 0, replaceWithNum: 0);
 	
 	/*
 	 * Algorithm: it can be done in two steps,
@@ -25,7 +25,7 @@ void Main()
 	*/
 }
 
-private void ReplaceRowAndColumns(int[,] matrix, int findNum, int replaceWithNum)
+private void ReplaceRowsAndColumns(int[,] matrix, int findNum, int replaceWithNum)
 {
 	int rowCount = matrix.GetLength(0);
 	int colCount = matrix.GetLength(1);
