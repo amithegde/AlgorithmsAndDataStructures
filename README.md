@@ -19,6 +19,11 @@ Linked Lists
 > - [Return Kth element from last](https://github.com/amithegde/AlgorithmsAndDataStructures/blob/master/src/LinkedList_Kth_last_item.cs)
 > - [Remove Duplicates from the list (with buffer & with no buffer)](https://github.com/amithegde/AlgorithmsAndDataStructures/blob/master/src/LinkedList_Remove_Duplicates.cs)
 
+Stack
+-----
+
+> - [Auto Resizing Stack](https://github.com/amithegde/AlgorithmsAndDataStructures/blob/master/src/Stack_ResizingStack.cs)
+
 Binary Tree
 ------------
 
