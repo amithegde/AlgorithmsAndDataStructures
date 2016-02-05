@@ -1,4 +1,4 @@
-Interview questions solved, in C#
+Programming Interview questions solved, in C#
 
 I Use [LinqPad](https://www.linqpad.net/) to get things going quickly.
 
